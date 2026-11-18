@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# dane i wyniki pośrednie
+100k/
+cache/
+*.jpg
+*.pkl
+predictions_test_lab2A.json
+test_images.json
+results_test_lab2A.csv
