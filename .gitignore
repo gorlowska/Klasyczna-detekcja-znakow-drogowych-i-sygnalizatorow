@@ -219,63 +219,11 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-
-# ==============================================================
-# Projekt: klasyczna detekcja znaków drogowych i sygnalizatorów
-# ==============================================================
-
-# Dane BDD100K (dziesiątki GB - pobierane osobno, nie do repo)
-bdd100k_images_100k/
-bdd100k_labels/
-bdd100k*/
-*.zip
-*.tar
-*.tar.gz
-*.7z
-
-# Wygenerowane zbiory danych (do odtworzenia z notebooka)
-*.csv
-*.parquet
-*.feather
+# dane i wyniki pośrednie
+100k/
+cache/
+*.jpg
 *.pkl
-*.pickle
-*.npy
-*.npz
-*.h5
-*.hdf5
-
-# Zdjęcia luzem w katalogu głównym (próbki/zrzuty z eksperymentów)
-/*.jpg
-/*.jpeg
-/*.png
-
-# Wyniki, wizualizacje i modele
-output/
-outputs/
-results/
-runs/
-*.pt
-*.pth
-*.onnx
-*.joblib
-
-# Notebooki: checkpointy
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-
-# IDE
-.vscode/
-.idea/
-
-# System operacyjny
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Całe foldery z danymi (jawnie, wraz z zawartością)
-/bdd100k_images_100k/
-/bdd100k_labels/
-/bdd100k_merged.csv
-data/
-dataset/
-datasets/
+predictions_test_lab2A.json
+test_images.json
+results_test_lab2A.csv
